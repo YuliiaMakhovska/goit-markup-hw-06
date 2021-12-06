@@ -652,7 +652,7 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   box-sizing: border-box;
-
+  color: var(--main-text-color);
   padding-left: 42px;
   padding-bottom: 12px;
   padding-top: 12px;
@@ -674,6 +674,9 @@ body {
   flex-direction: column;
   margin-bottom: 10px;
 }
+.modal-field:nth-child(4) {
+  margin-bottom: 20px;
+}
 .modal-field label {
   margin-bottom: 4px;
   font-weight: 400;
@@ -691,6 +694,7 @@ body {
   border-radius: 4px;
   display: block;
   margin: 0 auto;
+  margin-top: 30px;
 }
 .modal-send:hover,
 .modal-send:focus {
@@ -729,8 +733,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
 }
 .check-text {
   font-weight: 400;
